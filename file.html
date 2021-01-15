@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            #box1 {
+                background-color: pink;
+                width: 800px;
+                height: 50px;
+            }
+            #box1 div{
+                background-color:blanchedalmond;
+                margin: 0 auto;
+                float: left;
+            }
+            div {
+                margin:0 auto;
+            }
+             a{
+                font-size: 24px;
+                font-family:Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            #box2 {
+                float: left;
+                width: 200px;
+                text-align: center;
+                position: relative;
+                top:10px;
+
+            }
+            #box3{
+                float: left;
+                width: 200px;
+                text-align: center;
+                position: relative;
+                top: 10px;
+            }
+            #box4{
+                float: left;
+                width: 200px;
+                text-align: center;
+                position: relative;
+                top: 10px;
+            }
+            #box5{
+                float: left;
+                width: 200px;
+                text-align: center;
+                position: relative;
+                top: 10px;
+            }
+        </style>
+</head>
+<body>
+    <!-- <h1 id=hh1 ondblclick="myfunction(this)">hi world</h1> -->
+    <!-- <p id='p1'></p> -->
+    <!-- <p id='p2' style="color:red">heiheihei</p> -->
+    <!-- yourname:<input type="text"/><br> -->
+    <!-- age:<input type="text"/><br> -->
+    <!-- gender:<input type="text" class="gender"> -->
+    <!-- <p id=p3>please dianji</p> -->
+    <!-- <p onclick="this.innerHTML='woaixuexi'">please click</p> -->
+    <!-- <p ondblclick="this.innerHTML='heiheihei'">111111</p> -->
+    <!-- <div id="box" style="background-color: pink;width: 300px;  -->
+     <!-- height: 100px;"  -->
+     <!-- onmouseover="change1(this)" -->
+    <!-- onmouseout="change2(this)"> -->
+    <!-- 鼠标移上来 -->
+    <!-- </div>  -->
+    <div id='box1'>
+        <div id=box2 onmouseover="myfunction1(this)"
+        onmouseout="myfunction2(this)"><a href='https://www.tsinghua.edu.cn/index.htm'>HTML</a></div>
+        <div id=box3 ><a href='https://www.pku.edu.cn/'>CSS</a></div>
+        <div id=box4><a href='https://www.nwafu.edu.cn/'>JAVASCRIPT</a></div>
+        <div id=box5><a href='#'>About</a></div>
+    </div>
+     <script>
+        
+        
+        // <img id='image' src="./smartboy.jpg"/>
+        // document.write('xinneirong<p>hihi</p>')
+        // document.getElementById('p1').innerHTML="我来啦!";
+        // document.getElementById('hh1').innerHTML="new title";
+        // document.getElementById('image').src="night.jpg";
+        // document.getElementById('p2').style.color="blue";
+        // document.getElementById('hh1').style.color="pink";
+        // document.getElementsByTagName('input')[0].value='hello';
+        // document.getElementsByTagName('input')[1].value='28';
+        // document.getElementById('p3').onclick="this.innerHTML='haha'"
+
+        // document.getElementById('box').style.width=100 ;
+        // document.getElementById('box').style.height=30 ;
+        // document.getElementById('box').style.backgroundColor="pink";
+        // function myfunction(id) {
+            // id.innerHTML='woaixuexi'
+        // }
+        function change1(obj) {
+         obj.innerHTML="好害羞"
+         }
+        function change2(obj) {
+           obj.innerHTML="我还要"
+         }
+         function myfunction1(id) {
+             id.style.backgroundColor=red
+         }
+         
+         function myfunction2(id) {
+             id.innerHTML="<a href='https://www.tsinghua.edu.cn/index.htm'>HTML</a>"
+         }
+     </script>
+</body>
+</html>
